@@ -1,5 +1,22 @@
 body {
-  margin: 20px;
+  margin: 100px 0 0 100px;
   padding: 20px;
   font-family: sans-serif;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0 0 0;
+  width: 50%;
+}
+
+li {
+  padding: 20px 0 10px 10px;
+  font-weight: bold;
+  color: gray;
+  background-color: blue;
+}
+
+li:nth-child(odd) { background-color: #f9fafc }
+li:nth-child(even) { background-color: white }
